@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 20, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/admin/Desktop/guid%20for%20practies/my/src/app/layout.tsx"],"sourcesContent":["\"use client\"\nimport \"./globals.css\";\nimport Navbar from \"../../components/navbar\"; \n// import \"../../i18n\"\n// export const metadata = {\n//   title: \"My Tajikistan App\",\n//   description: \"Explore Tajikistan culture and travel\",\n// };\n\n\nexport default function RootLayout({ children }) {\n  return (\n    <html lang=\"en\">\n      <body>\n        <Navbar />\n        {children}\n      </body>\n      <footer className=\"bg-white mt-12 py-6 border-t\">\n          <div className=\"max-w-7xl mx-auto px-4 text-center text-gray-600\">\n            © {new Date().getFullYear()} My Tajikistan App\n          </div>\n        </footer>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;AAEA;AAFA;;;;AAUe,SAAS,WAAW,EAAE,QAAQ,EAAE;IAC7C,qBACE,8OAAC;QAAK,MAAK;;0BACT,8OAAC;;kCACC,8OAAC,qHAAA,CAAA,UAAM;;;;;oBACN;;;;;;;0BAEH,8OAAC;gBAAO,WAAU;0BACd,cAAA,8OAAC;oBAAI,WAAU;;wBAAmD;wBAC7D,IAAI,OAAO,WAAW;wBAAG;;;;;;;;;;;;;;;;;;AAKxC","debugId":null}}]
+}
